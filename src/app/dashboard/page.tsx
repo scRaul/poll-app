@@ -2,11 +2,7 @@ import { getUsersPolls } from "@/actions/poll.actions";
 import DashController from "@/components/DashController";
 import { Poll } from "@/lib/models";
 
-interface DashboardProps {
-  className?: string;
-}
-
-export default async function Dashboard(props: DashboardProps) {
+export default async function Dashboard() {
   const response = await getUsersPolls();
   const data = response.polls.data;
   var polls: Poll[];
