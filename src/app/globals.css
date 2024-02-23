@@ -31,3 +31,16 @@ body {
     text-wrap: balance;
   }
 }
+.input {
+  @apply w-full rounded p-2 bg-transparent focus:outline-none border focus-within:border-blue-500;
+}
+.scrolly::-webkit-scrollbar {
+  width: 4px;
+}
+.scrolly::-webkit-scrollbar-thumb {
+  background-color: rgb(247, 0, 0);
+  border-radius: 6px;
+}
+.scrolly::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.178);
+}
