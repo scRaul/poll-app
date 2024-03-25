@@ -23,7 +23,7 @@ export default function Home() {
           <div className="p-2 [&>*]:p-2 [&>*]:block [&>*]:mb-2">
             <Link
               className="hover:bg-[#ffffff80] border border-black rounded"
-              href="/create"
+              href="/dashboard"
             >
               Create a Poll{" "}
             </Link>

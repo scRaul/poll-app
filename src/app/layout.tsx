@@ -9,6 +9,7 @@ import LinkedIn from "@/components/Logos/LinkedIn";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://poll-app-eight.vercel.app/"),
   title: {
     default: "Quick Poll",
     template: "%s | Quick Poll",
@@ -17,7 +18,6 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
   },
-  openGraph: {},
 };
 
 export default function RootLayout({
@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <header className="text-xl pl-2 md:pl-10 pt-2">
+        <header className="text-xl pl-2 md:pl-10 pt-2 w-fit">
           <Link
             href={"/"}
             className="relative block w-10 cursor-pointer"
@@ -38,7 +38,7 @@ export default function RootLayout({
           </Link>
         </header>
         <div className="w-full h-full">{children}</div>
-        <footer className="fixed bottom-0 w-full flex p-2 border-t border-[#ffffffAA]">
+        <footer className="fixed bottom-0 w-full flex p-2 gap-2 pl-10 border-t border-[#ffffffAA] bg-inherit font-sans">
           <a href="https://github.com/scRaul" target="_blank" className="">
             <GitHub></GitHub>
           </a>

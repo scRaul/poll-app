@@ -6,7 +6,6 @@ import {redirect} from 'next/navigation';
 const api =
     'https://us-central1-poll-24d19.cloudfunctions.net/api/authenticate';
 
-
 export async function signup(formData: FormData) {
   try {
     const rawData = Object.fromEntries(formData.entries());

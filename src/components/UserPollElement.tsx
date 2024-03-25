@@ -3,7 +3,6 @@ import { Poll } from "@/lib/models";
 import { MoreHorizontal, Trash, X } from "lucide-react";
 import { useState } from "react";
 import ConfirmationButton from "./ConfirmationButton";
-import { getMyId } from "@/actions/auth.actions";
 
 interface PollProps {
   poll: Poll;
