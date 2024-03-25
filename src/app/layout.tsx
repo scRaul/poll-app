@@ -9,8 +9,15 @@ import LinkedIn from "@/components/Logos/LinkedIn";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "QuickPoll",
-  description: "Create and share polls",
+  title: {
+    default: "Quick Poll",
+    template: "%s | Quick Poll",
+  },
+  description: "Create and share polls!",
+  twitter: {
+    card: "summary_large_image",
+  },
+  openGraph: {},
 };
 
 export default function RootLayout({
