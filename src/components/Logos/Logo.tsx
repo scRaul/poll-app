@@ -13,7 +13,7 @@ export default function Logo() {
         fill={baseColor}
         opacity="1.000000"
         stroke={strokeColor}
-        strokeWidth="3"
+        strokeWidth={3}
         d="
 M195.973572,148.984329 
 	C194.357300,153.941071 193.088394,158.616791 191.222672,163.040817 
@@ -51,6 +51,7 @@ z"
         fill={baseColor}
         opacity="1.000000"
         stroke={strokeColor}
+        strokeWidth={3}
         d="
 M257.000000,187.001465 
 	C244.672058,187.001465 232.828766,187.347336 221.024033,186.823792 
@@ -78,6 +79,7 @@ z"
         fill={baseColor}
         opacity="1.000000"
         stroke={strokeColor}
+        strokeWidth={3}
         d="
 M363.180908,179.265793 
 	C362.303741,182.017838 361.538177,184.382370 360.690125,187.001633 
@@ -94,6 +96,7 @@ z"
         fill={baseColor}
         opacity="1.000000"
         stroke={strokeColor}
+        strokeWidth={3}
         d="
 M531.128418,14.965652 
 	C528.821533,23.008434 526.414917,30.598486 524.148193,38.230068 
@@ -122,6 +125,7 @@ z"
         fill={baseColor}
         opacity="1.000000"
         stroke={strokeColor}
+        strokeWidth={3}
         d="
 M542.012451,57.008904 
 	C546.443115,42.153542 550.798035,27.694197 555.173706,13.166105 
@@ -183,6 +187,7 @@ z"
         fill={baseColor}
         opacity="1.000000"
         stroke={strokeColor}
+        strokeWidth={3}
         d="
 M155.902710,314.882935 
 	C163.712097,287.839539 171.359604,261.170502 179.206848,234.560394 
@@ -216,6 +221,7 @@ z"
         fill={baseColor}
         opacity="1.000000"
         stroke={strokeColor}
+        strokeWidth={3}
         d="
 M314.254150,360.163452 
 	C334.840149,360.659271 355.326477,360.737976 375.812775,360.811310 
@@ -236,6 +242,7 @@ z"
         fill={baseColor}
         opacity="1.000000"
         stroke={strokeColor}
+        strokeWidth={3}
         d="
 M388.075134,386.299011 
 	C404.505371,329.424286 420.855408,272.968689 437.096039,216.890762 
@@ -255,6 +262,7 @@ z"
         fill={baseColor}
         opacity="1.000000"
         stroke={strokeColor}
+        strokeWidth={3}
         d="
 M561.861694,233.002014 
 	C564.956238,232.608765 566.189270,233.292938 566.074402,236.364273 
@@ -268,6 +276,7 @@ z"
         fill={baseColor}
         opacity="1.000000"
         stroke={strokeColor}
+        strokeWidth={3}
         d="
 M548.000000,265.001984 
 	C585.804810,265.001984 623.109619,265.001984 660.706055,265.001984 
@@ -281,6 +290,7 @@ z"
         fill={baseColor}
         opacity="1.000000"
         stroke={strokeColor}
+        strokeWidth={3}
         d="
 M556.000000,321.998016 
 	C543.858032,321.998016 532.216064,321.998016 520.288696,321.998016 
@@ -308,6 +318,7 @@ z"
         fill={baseColor}
         opacity="1.000000"
         stroke={strokeColor}
+        strokeWidth={3}
         d="
 M563.000000,385.998016 
 	C548.525391,385.998016 534.550720,385.998016 520.289551,385.998016 

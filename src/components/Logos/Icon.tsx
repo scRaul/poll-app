@@ -7,6 +7,7 @@ export default function Logo() {
         fill={baseColor}
         opacity="1.000000"
         stroke={strokeColor}
+        strokeWidth={3}
         d="
 M561.861694,233.002014 
 	C564.956238,232.608765 566.189270,233.292938 566.074402,236.364273 
@@ -20,6 +21,7 @@ z"
         fill={baseColor}
         opacity="1.000000"
         stroke={strokeColor}
+        strokeWidth={3}
         d="
 M548.000000,265.001984 
 	C585.804810,265.001984 623.109619,265.001984 660.706055,265.001984 
@@ -33,6 +35,7 @@ z"
         fill={baseColor}
         opacity="1.000000"
         stroke={strokeColor}
+        strokeWidth={3}
         d="
 M556.000000,321.998016 
 	C543.858032,321.998016 532.216064,321.998016 520.288696,321.998016 
@@ -60,6 +63,7 @@ z"
         fill={baseColor}
         opacity="1.000000"
         stroke={strokeColor}
+        strokeWidth={3}
         d="
 M563.000000,385.998016 
 	C548.525391,385.998016 534.550720,385.998016 520.289551,385.998016 

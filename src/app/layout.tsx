@@ -14,7 +14,8 @@ export const metadata: Metadata = {
     default: "Quick Poll",
     template: "%s | Quick Poll",
   },
-  description: "Create and share polls!",
+  description:
+    "Quick Poll is the quick and easy way to create and share a poll. No sign in required.",
   twitter: {
     card: "summary_large_image",
   },
