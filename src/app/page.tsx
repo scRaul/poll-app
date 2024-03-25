@@ -9,7 +9,7 @@ export default function Home() {
           <Logo></Logo>
         </header>
 
-        {/* <p className="font-sans text-lg p-2">
+        <p className="font-sans text-lg p-2">
           Quick Poll® is a free web app,that allows users to quickly create and
           share polls. No sign up required. However creating an account will
           give you access to a dashboard for better managing your polls
@@ -40,7 +40,7 @@ export default function Home() {
               Sign up
             </Link>
           </div>
-        </div> */}
+        </div>
       </section>
     </main>
   );
