@@ -1,3 +1,4 @@
+import { getMyId } from "@/actions/auth.actions";
 import { getUsersPolls } from "@/actions/poll.actions";
 import DashController from "@/components/DashController";
 import { Poll } from "@/lib/models";
@@ -18,10 +19,11 @@ export default async function Dashboard() {
       createdAt: data[pollId].createdAt,
     }));
   }
+  const userId = await getMyId();
   return (
     <div>
       <h1 className="text-2xl md:text-4xl text-blue-500 my-2"> Dashboard</h1>
-      <DashController polls={polls} />
+      <DashController polls={polls} userId={userId} />
     </div>
   );
 }

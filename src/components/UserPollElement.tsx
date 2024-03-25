@@ -3,6 +3,7 @@ import { Poll } from "@/lib/models";
 import { MoreHorizontal, Trash, X } from "lucide-react";
 import { useState } from "react";
 import ConfirmationButton from "./ConfirmationButton";
+import { getMyId } from "@/actions/auth.actions";
 
 interface PollProps {
   poll: Poll;
@@ -24,7 +25,7 @@ export default function UserPollElement(props: PollProps) {
   function getPercent(count: number) {
     if (totalVotes == 0) return 0;
     const percent = Math.floor((count / totalVotes) * 100);
-    console.log(percent);
+    // console.log(percent);
     return percent;
   }
   function handleDelete() {
@@ -77,7 +78,9 @@ export default function UserPollElement(props: PollProps) {
               }`}
               style={{ width: `${getPercent(opt.count)}%` }}
             ></div>
-            <p className="flex-grow text-nowrap">{opt.text}</p>
+            <p className="flex-grow text-nowrap" style={{ zIndex: 50 }}>
+              {opt.text}
+            </p>
             <p className="">{opt.count}</p>
           </div>
         ))}

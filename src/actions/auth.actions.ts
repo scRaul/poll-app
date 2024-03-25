@@ -3,9 +3,9 @@
 
 import {cookies} from 'next/headers';
 import {redirect} from 'next/navigation';
-
 const api =
     'https://us-central1-poll-24d19.cloudfunctions.net/api/authenticate';
+
 
 export async function signup(formData: FormData) {
   try {
@@ -62,4 +62,10 @@ export async function login(formData: FormData) {
     }
   }
   redirect('/dashboard');
+}
+
+export async function getMyId() {
+  const userId = cookies().get('user');
+  if (!userId) redirect('/login');
+  return userId.value;
 }

@@ -1,11 +1,14 @@
-
-// export interface User {
-//   userId: string|null;  // pk
-//   username: string;
-//   password: string;
-//   email: string;
-//   ip: string;
-// }
+export interface whereObj {
+  field: string;
+  value: string|number;
+}
+export interface User {
+  userId: string;
+  username: string;
+  password: string;
+  email: string;
+  ip: string;
+}
 export interface PollOpt {
   text: string;
   count: number;

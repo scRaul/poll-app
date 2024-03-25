@@ -23,14 +23,9 @@ export default async function VotePollPage({
     <div>
       <h1 className="text-2xl md:text-4xl text-blue-500 my-2">
         {username}
-        {"wants to know:"}
+        {" wants to know:"}
       </h1>
       <VotingPoll poll={poll} />
-      {!poll.isOpen && (
-        <p className="mt-4 text-center text-red-500">
-          voting on this poll is currently closed.
-        </p>
-      )}
     </div>
   );
 }
